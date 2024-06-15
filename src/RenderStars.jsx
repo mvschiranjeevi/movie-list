@@ -1,4 +1,6 @@
+// RenderStars.js
 import React from "react";
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import { faStar as faEmptyStar } from "@fortawesome/free-regular-svg-icons";
@@ -25,6 +27,10 @@ const RenderStars = ({ rating }) => {
         ))}
     </>
   );
+};
+
+RenderStars.propTypes = {
+  rating: PropTypes.number.isRequired,
 };
 
 export default RenderStars;

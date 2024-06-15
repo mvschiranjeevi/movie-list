@@ -2,14 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import MovieList from "./MovieList";
 import Filters from "./Filters";
-
-const movies = [
-  { title: "The Matrix", rating: 7.5, category: "Action" },
-  { title: "Focus", rating: 6.9, category: "Comedy" },
-  { title: "The Lazarus Effect", rating: 6.4, category: "Thriller" },
-  { title: "Everly", rating: 5.0, category: "Action" },
-  { title: "Maps to the Stars", rating: 7.5, category: "Drama" },
-];
+import { movies } from "./constants";
 
 const App = () => {
   const [search, setSearch] = useState("");
