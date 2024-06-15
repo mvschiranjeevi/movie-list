@@ -1,0 +1,95 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search-and-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.search-and-movies {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-and-options {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.star-icon {
+  margin-right: 3px;
+}
+
+.search-input {
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: left;
+  width: 150px;
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-top: 25px;
+  gap: 20px;
+  max-width: 300px;
+}
+
+.filter-content label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+ul.movie-list {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.movie-rating {
+  flex: 1;
+  text-align: center;
+}
+
+.movie-category {
+  flex: 1;
+  text-align: right;
+}
